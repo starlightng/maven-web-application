@@ -29,7 +29,15 @@
 
 	</properties>
 
-	<dependencies>
+	<repositories>
+     		<repository>
+      		<id>nexus</id>
+      		<name>Proxy Repo</name>
+      		<url>http://100.26.247.159:8081/repository/Paypal-fintech/</url>
+      		</repository>
+    </repositories>
+
+    <dependencies>
 		
 		<dependency>
 			<groupId>org.json</groupId>
